@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tw_name_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="230dp"
+        android:text="Xin Chào, admin!"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnQL"
+        android:layout_width="102dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:layout_weight="5"
+        android:background="@drawable/sharpbutton"
+        android:drawableTop="@drawable/ic_baseline_person_24"
+        android:text="Quản lý sinh viên"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWebsite"
+        android:layout_width="102dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="340dp"
+        android:layout_weight="5"
+        android:background="@drawable/sharpbutton"
+        android:drawableTop="@drawable/ic_baseline_insert_link_24"
+        android:onClick="openBrower"
+        android:text="Website"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogout"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_weight="5"
+        android:background="@drawable/sharpbutton"
+        android:text="Đăng xuất"
+        android:textColor="@color/white" />
+</RelativeLayout>

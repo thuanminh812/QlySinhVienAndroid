@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoStudent">
+
+    <TextView
+        android:id="@+id/tw_name_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cá nhân"
+        android:textSize="22sp"
+        android:textColor="#d84315"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"/>
+    <TextView
+        android:id="@+id/tw_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Họ và tên: "
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tw_namsinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Năm sinh: "
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tw_lopHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Lớp học: "
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tw_quequan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Quê quán: "
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tw_masv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Mã sinh viên: "
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>
